@@ -1,0 +1,40 @@
+class Employees {
+
+    String name;
+    int salary;
+
+    public String getBand() {
+        return band;
+    }
+
+    public void setBand(String band) {
+        this.band = band;
+    }
+
+    String band;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    Employees(String name, int salary,String band){
+        this.salary = salary;
+        this.name  = name;
+        this.band = band;
+
+    }
+
+
+}
